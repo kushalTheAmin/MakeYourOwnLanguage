@@ -19,6 +19,10 @@
        <!--iclude css file-->
         <link rel="stylesheet" href="css/custom_index.css">
 
+       <!--include js file-->
+       <script type="text/javascript" src="js/custom.js"></script>
+
+
 </head>
 <body>
 	  <div class="container">
@@ -29,24 +33,51 @@
          </div>
          <div class="row">
             <div class="col-ms-12" id="headingCol_2">
-              Using  This.Website !
+             {$Using : This.Website}
             </div>
          </div>
          
          <div class="row">
+        
            <div class="col-ms-12" id="menuCol_1">
-             <button type="button" class="btn btn-primary btn-lg">Java</button>
-             <button type="button" class="btn btn-primary btn-lg">C#</button>
-             <button type="button" class="btn btn-primary btn-lg">Objective C </button>
-             <button type="button" class="btn btn-primary btn-lg">JavaScript</button>
-             <button type="button" class="btn btn-primary btn-lg">C++</button>
+             <button type="button" class="btn btn-primary btn-lg" value="Java"><a href="#goto">Java</a></button>
+             <button type="button" class="btn btn-primary btn-lg" value="C#"><a href="#goto">C#</a></button>
+             <button type="button" class="btn btn-primary btn-lg" value="Objective C"><a href="#goto">Objective C </a></button>
+             <button type="button" class="btn btn-primary btn-lg" value="JavaScript"><a href="#goto">JavaScript</a></button>
+             <button type="button" class="btn btn-primary btn-lg" value="C++"><a href="#goto">C++</a></button>
            </div>
            <div class="col-ms-12">
-             <button type="button" class="btn btn-primary btn-lg">Perl</button>
-             <button type="button" class="btn btn-primary btn-lg">Ruby</button>
-             <button type="button" class="btn btn-primary btn-lg">Python</button>
+             <button type="button" class="btn btn-primary btn-lg" value="PHP"><a href="#goto">PHP</a></button>
+             <button type="button" class="btn btn-primary btn-lg" value="Ruby"><a href="#goto">Ruby</a></button>
+             <button type="button" class="btn btn-primary btn-lg" value="Python"><a href="#goto">Python</a></button>
+
            </div>
          </div>
-	  </div>
+	 
+
+	 
+       <div class="primary_section" id="goto">
+          <div class="decription_section" id="decription_section">
+            
+          </div>
+          <div class="slidebar_section">
+          <div id="language_name"></div>
+            <div class="menu">
+             <form id="myForm">
+              <input type="radio" name="radioName" value="dataTypes" /> Data Types <br />
+              <input type="radio" name="radioName" value="varDeclare" /> Variable Declaration <br />
+              <input type="radio" name="radioName" value="assignStatement" />Assignment Statements <br/>
+              <input type="radio" name="radioName" value="varInit" /> Variable Initialization <br/>    	   
+              <input type="radio" name="radioName" value="arithExpession" /> Arithmetic Expression<br/>
+              <input type="radio" name="radioName" value="relBoolExp" /> Relation and Boolean Expressions <br/>
+              <input type="radio" name="radioName" value="typeConversion"/> Type Conversions <br/> 
+              <input type="radio" name="radioName" value="selectStatement" /> Selection Statement <br/>  
+              <input type="radio" name="radioName" value="iterativeStatement"/> Iterative Statement <br/>
+             
+             </form>
+            </div>
+          </div>
+       </div>
+	 </div>
 </body>
 </html>
