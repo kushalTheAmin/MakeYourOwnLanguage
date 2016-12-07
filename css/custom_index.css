@@ -72,5 +72,21 @@ body {
     .container .primary_section .slidebar_section {
       width: 204px;
       left: 476px; } }
+.container h2 {
+  color: red; }
+.container p {
+  font-size: 25px; }
+.container ul div {
+  color: red;
+  font-size: 20px; }
+
+#pId {
+  font-size: 18px; }
+
+table, th, td {
+  border: 1px solid black; }
+
+td {
+  width: 200px; }
 
 /*# sourceMappingURL=custom_index.css.map */

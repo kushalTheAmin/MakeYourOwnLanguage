@@ -69,7 +69,7 @@ body
           height:545px;
           width: 803px;
           overflow: scroll;
-
+          
 	    }
 	    
 	    .slidebar_section
@@ -148,3 +148,40 @@ body
   }
 }
 
+// java data type page
+.container
+{
+	h2
+	{
+	  color: red;
+	   
+	}
+	p
+	{
+	  font-size: 25px;
+      
+	}
+	ul
+	{
+	  div{
+	     color:red;
+	     font-size: 20px;
+	  }
+	}
+}
+
+ #pId
+  {
+    font-size: 18px; 
+  }	 
+	  
+
+table, th, td
+{
+	border: 1px solid black;
+}
+
+td
+{
+	width: 200px;
+}
